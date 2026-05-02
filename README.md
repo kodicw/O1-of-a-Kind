@@ -35,6 +35,7 @@ This isn't just a list of tools; it’s a strategy for **$O(1)$ Scaling**. Wheth
 | 07 | [NixOS](./recommendations/07-nixos.md) | Declarative OS |
 | 08 | [HashiCorp Nomad](./recommendations/08-nomad.md) | Workload Orchestration |
 | 09 | [NetBox Enterprise](./recommendations/09-netbox.md) | Network Source of Truth |
+| 10 | [High-Performance Observability](./recommendations/10-observability.md) | O1 Observability |
 
 ---
 *Follow the [Template](./recommendations/_template.md) to add new recommendations.*

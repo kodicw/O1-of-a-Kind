@@ -48,7 +48,14 @@ To eliminate "babysitting," we separate the business lifecycle from the technica
 
 By separating these truths, we allow finance and engineering to move at their own speeds without one bottlenecking the other.
 
-## 8. The Engineering Mandate: Stability over Maintenance
+## 8. O(1) Observability: VictoriaLogs over Loki
+Monitoring is not just a secondary task; it is a core infrastructure requirement that must scale at constant complexity.
+
+*   **Eliminating Inefficiency:** Legacy stacks (ELK) or label-only indexes (Loki) fail at high scale, devolving into brute-force regex scans that throttle resources.
+*   **Performance:** VictoriaLogs provides a **94% reduction in query latency** and uses **87% less RAM** than Loki. It allows for instant, ad-hoc "needle in a haystack" searches without crashing the control plane.
+*   **The Pipeline:** Using **Vector** (Rust-based) ensures that data ingestion is high-throughput and low-overhead, filtering noise before it ever touches storage.
+
+## 9. The Engineering Mandate: Stability over Maintenance
 This stack is a commitment to **Operational Integrity** and a respect for the most valuable resource: **Time.**
 
 *   **Engineering vs. Babysitting:** My role is to provide stable, autonomous solutions that work at scale. I do not engineer "band-aids" for broken systems. Managing technical debt is an inefficient use of cognitive load.
