@@ -37,8 +37,8 @@ Immutable architectures are already the backbone for major enterprises in highly
 
 ## 5. The Engineering Mandate: Stability over Maintenance
 
-This stack is not just a collection of tools; it is a commitment to **Operational Integrity**. 
+This stack is not just a collection of tools; it is a commitment to **Operational Integrity** and a respect for the most valuable resource: **Time.**
 
 *   **Engineering vs. Babysitting:** My role is to provide stable, autonomous solutions that work at scale. I do not engineer "band-aids" for broken systems. Managing technical debt is an inefficient use of cognitive load and professional time.
 *   **The Cost of Manual Intervention:** If a system requires constant manual intervention, "babysitting," or chasing down configuration drift, it is a failed architecture. We do not work within broken systems; we replace them with stable ones.
-*   **The Logical Conclusion:** Rejecting an expert architectural solution to preserve "spaghetti infrastructure" leads to an inevitable cycle of struggle and failure. This manifesto serves as a declaration that we prioritize long-term stability and declarative logic over the high-maintenance "babysitting" of legacy debt.
+*   **The Efficiency of Engagement:** I value both my time and the time of those I work with too highly to waste it on unforced errors. This manifesto is a declaration that we prioritize long-term stability and declarative logic over the high-maintenance "babysitting" of legacy debt.
