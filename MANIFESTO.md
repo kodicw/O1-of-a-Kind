@@ -26,7 +26,14 @@ The traditional "hub-and-spoke" VPN is a high-latency bottleneck and a single po
 *   **Scale:** Nebula provides true cross-datacenter scale (Lighthouse architecture) for tens of thousands of nodes without central bottlenecks.
 *   **Sovereignty:** Using Headscale (open-source Tailscale control plane) ensures $0 licensing costs and total data sovereignty.
 
-## 5. Lightweight Orchestration: HashiCorp Nomad
+## 5. Open Networking: SONiC
+We extend the declarative/immutable philosophy to the physical network layer by decoupling hardware and software.
+
+*   **Vendor Agnostic:** Using SONiC (Software for Open Networking in the Cloud) allows us to run on multi-vendor ASICs without vendor lock-in.
+*   **Containerized Microservices:** SONiC isolates network functions (BGP, LLDP) into containers, enabling zero-downtime upgrades and high reliability.
+*   **Declarative State:** A centralized Redis database manages the switch state, aligning network operations with modern DevOps practices.
+
+## 6. Lightweight Orchestration: HashiCorp Nomad
 Kubernetes is often "too much machine," requiring dedicated teams to manage the control plane. Nomad provides the same core benefits with a fraction of the complexity.
 
 *   **Single Binary:** One tool for server and client. Dramatically lower resource overhead.

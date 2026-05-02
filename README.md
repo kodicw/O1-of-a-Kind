@@ -36,6 +36,7 @@ This isn't just a list of tools; it’s a strategy for **$O(1)$ Scaling**. Wheth
 | 08 | [HashiCorp Nomad](./recommendations/08-nomad.md) | Workload Orchestration |
 | 09 | [NetBox Enterprise](./recommendations/09-netbox.md) | Network Source of Truth |
 | 10 | [High-Performance Observability](./recommendations/10-observability.md) | O1 Observability |
+| 11 | [SONiC (Network OS)](./recommendations/11-sonic.md) | Open Networking |
 
 ---
 *Follow the [Template](./recommendations/_template.md) to add new recommendations.*
