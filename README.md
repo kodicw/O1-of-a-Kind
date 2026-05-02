@@ -2,7 +2,7 @@
 
 > **Read the [Infrastructure Manifesto](./MANIFESTO.md)** for the core philosophy driving these recommendations: Immutable Endpoints vs. Legacy Debt.
 
-This repository documents the requirements for a **modern company**, with a primary focus on **Scale**, **Cost**, and **Efficiency**.
+This repository documents the recommendations for a **modern company**, with a primary focus on **Scale**, **Cost**, and **Efficiency**.
  Each recommendation is chosen based on its ability to provide high performance and security while minimizing overhead and operational costs.
 
 ## Core Priorities
