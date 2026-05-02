@@ -11,19 +11,19 @@ This repository documents the requirements for a **modern company**, with a prim
 - **Efficiency:** Does it streamline IT management and user productivity?
 
 ## The Elevator Pitch: Why These?
-The **Modern Company** is built on a single, uncompromising principle: **Complexity is a Cost.** 
+The **Modern Company** is defined by a single axiom: **Complexity is a Cost.** 
 
-Most organizations solve problems by layering expensive, proprietary tools on top of fragile foundations. We do the opposite. We choose technologies that are **Declarative**, **Immutable**, and **Unified** to eliminate technical debt at the source.
+Conventional infrastructure relies on proprietary, mutable layers that accumulate technical debt. Our approach is deductive: we employ only **Declarative**, **Immutable**, and **Unified** systems to ensure operational overhead remains constant ($O(1)$) as the organization scales.
 
-*   **We choose ChromeOS, NixOS, and SONiC** because they are stateless or declarative. We decouple hardware from software and eliminate configuration drift at the OS and network layer.
-*   **We choose Tailscale and Nebula** because they replace high-latency bottlenecks with a high-performance, identity-based mesh.
-*   **We choose Odoo, Grist, and Stirling PDF** because they replace fragmented "SaaS-tax" subscriptions with unified, open-core platforms.
-*   **We choose NetBox** because your network should be driven by an active "Engineering Truth," not a passive spreadsheet.
-*   **We choose VictoriaLogs and Wazuh** because observability and security should scale with compute, not with the predatory "volume-tax" of legacy SIEMs and log aggregators.
-*   **We choose vLLM and LiteLLM** because AI should be a high-performance, private, and cost-controlled asset, not a volatile cloud dependency.
-*   **We choose Nomad** because orchestration should be a lightweight utility, not a complex engineering sub-department.
+*   **Stateless Foundations:** We deploy **ChromeOS, NixOS, and SONiC** to decouple hardware from software, physically eliminating configuration drift at the endpoint, OS, and network layers.
+*   **Identity-Based Mesh:** We utilize **Tailscale and Nebula** to replace centralized bottlenecks with high-performance, peer-to-peer connectivity.
+*   **Data Sovereignty:** We employ **Odoo, Grist, and Stirling PDF** to consolidate fragmented SaaS subscriptions into unified, open-core platforms.
+*   **Active Source of Truth:** We mandate **NetBox** as the engine for engineering truth, ensuring the physical state is a derivative of its intended design.
+*   **Compute-Scale Security:** We implement **VictoriaLogs and Wazuh** so that observability and security scale with compute resources, rather than the arbitrary "volume-tax" of legacy vendors.
+*   **Sovereign Intelligence:** We integrate **vLLM and LiteLLM** to transform AI into a private, high-performance asset rather than a volatile external dependency.
+*   **Utility Orchestration:** We use **Nomad** for lightweight, workload-agnostic scheduling that avoids the administrative bloat of Kubernetes.
 
-This isn't just a list of tools; it’s a strategy for **$O(1)$ Scaling**. Whether you have 10 users or 10,000, the operational overhead remains constant. 
+This strategy ensures that whether the organization services 10 users or 10,000, the engineering complexity remains **O(1)**.
 
 ## Recommendations Index
 
