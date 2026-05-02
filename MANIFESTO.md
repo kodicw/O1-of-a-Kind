@@ -40,14 +40,14 @@ Kubernetes is often "too much machine," requiring dedicated teams to manage the 
 *   **Workload Agnostic:** Orchestrate Docker, raw binaries, Java, or VMs in a single unified scheduler.
 *   **Simplicity:** Reduces man-hours spent on maintenance and lowers compute costs.
 
-## 6. Unified Software: Odoo, Grist, & Stirling PDF
+## 7. Unified Software: Odoo, Grist, & Stirling PDF
 We replace fragmented "SaaS-tax" subscriptions with unified, open-core platforms that provide enterprise-grade power without the per-user licensing bloat.
 
 *   **Unified ERP (Odoo):** A single PostgreSQL backend ensures atomic data integrity. It eliminates the fragmented "syncing" debt of Microsoft D365, saving ~$250k/year for 200 users.
 *   **Relational Data (Grist):** A database disguised as a spreadsheet. It provides strict data integrity and Python logic, replacing the fragile `VLOOKUP` chains of Excel.
 *   **Document Sovereignty (Stirling PDF):** A military-grade, self-hosted alternative to Adobe. It follows the **90/10 Rule**: use Stirling for the 90% and reserve Adobe for the 10% of power users.
 
-## 7. The Split Source of Truth: Business vs. Engineering
+## 8. The Split Source of Truth: Business vs. Engineering
 To eliminate "babysitting," we separate the business lifecycle from the technical configuration.
 
 *   **Business Truth (Odoo):** Manages the financial lifecycle of an asset (procurement, custody, depreciation, and HR assignment). It answers: *Who has it and how much did it cost?*
@@ -55,14 +55,21 @@ To eliminate "babysitting," we separate the business lifecycle from the technica
 
 By separating these truths, we allow finance and engineering to move at their own speeds without one bottlenecking the other.
 
-## 8. O(1) Observability: VictoriaLogs over Loki
+## 9. O(1) Observability: VictoriaLogs over Loki
 Monitoring is not just a secondary task; it is a core infrastructure requirement that must scale at constant complexity.
 
 *   **Eliminating Inefficiency:** Legacy stacks (ELK) or label-only indexes (Loki) fail at high scale, devolving into brute-force regex scans that throttle resources.
 *   **Performance:** VictoriaLogs provides a **94% reduction in query latency** and uses **87% less RAM** than Loki. It allows for instant, ad-hoc "needle in a haystack" searches without crashing the control plane.
 *   **The Pipeline:** Using **Vector** (Rust-based) ensures that data ingestion is high-throughput and low-overhead, filtering noise before it ever touches storage.
 
-## 9. The Engineering Mandate: Stability over Maintenance
+## 10. Unified Security: Wazuh
+We reject the "licensing trap" of volume-based SIEMs in favor of an open-source, enterprise-grade XDR and security monitoring platform.
+
+*   **Zero Volume-Based Fees:** Eliminate the escalating costs of legacy SIEMs (Splunk, QRadar). Scale your security monitoring at the cost of compute, not data volume.
+*   **Active Defense:** Move from passive monitoring to active response by automating endpoint isolation and account disabling upon threat detection.
+*   **Compliance Hardening:** Use automated Security Configuration Assessment (SCA) to continuously harden systems against CIS benchmarks and regulatory standards.
+
+## 11. The Engineering Mandate: Stability over Maintenance
 This stack is a commitment to **Operational Integrity** and a respect for the most valuable resource: **Time.**
 
 *   **Engineering vs. Babysitting:** My role is to provide stable, autonomous solutions that work at scale. I do not engineer "band-aids" for broken systems. Managing technical debt is an inefficient use of cognitive load.
