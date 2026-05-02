@@ -33,4 +33,4 @@ Out-of-the-box rule mapping and dashboards for global standards:
 *   **Deployment Flexibility:** "All-in-one" for small shops or "Multi-node Cluster" for high availability in enterprises.
 
 **The Strategic Choice:**
-Wazuh is the definitive choice for organizations requiring deep security visibility without vendor lock-in, providing a scalable, secure-by-design foundation for modern infrastructure.
+Wazuh is the definitive choice for organizations seeking deep security visibility without vendor lock-in, providing a scalable, secure-by-design foundation for modern infrastructure.

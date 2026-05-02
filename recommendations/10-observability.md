@@ -18,7 +18,7 @@ A Prometheus-compatible, long-term storage solution for time-series metrics.
 ## 3. The Game-Changer: VictoriaLogs vs. Loki
 The cornerstone of this stack is replacing Grafana Loki with **VictoriaLogs** for log storage.
 *   **Columnar Indexing:** Unlike Loki (label-only index), VictoriaLogs uses a columnar LSM-style storage with full-text, per-field indexing.
-*   **No Brute-Force:** Eliminates Loki's requirement for brute-force regex scans during complex queries.
+*   **No Brute-Force:** Eliminates Loki's dependency on brute-force regex scans during complex queries.
 
 ### Benchmark Stats (500GB / 7-Day Workload)
 | Metric | Grafana Loki | VictoriaLogs | Improvement |
