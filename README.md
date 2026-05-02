@@ -42,6 +42,12 @@ This strategy ensures that whether the organization services 10 users or 10,000,
 | 11 | [SONiC (Network OS)](./recommendations/11-sonic.md) | Open Networking |
 | 12 | [Wazuh (SIEM & XDR)](./recommendations/12-wazuh.md) | Unified Security |
 | 13 | [Sovereign AI Infrastructure](./recommendations/13-local-ai.md) | Local AI Sovereignty |
+| 14 | [APOTHEOSIS](./recommendations/14-apotheosis.md) | Supply Chain Security |
+| 15 | [OpenWrt](./recommendations/15-openwrt.md) | Universal Network OS |
+
+---
+*Follow the [Template](./recommendations/_template.md) to add new recommendations.*
+recommendations/13-local-ai.md) | Local AI Sovereignty |
 
 ---
 *Follow the [Template](./recommendations/_template.md) to add new recommendations.*
