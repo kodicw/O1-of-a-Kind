@@ -1,6 +1,6 @@
 # Manifesto: The O(1) Infrastructure Strategy
 
-This document outlines the architectural, financial, and philosophical logic for the **O1-of-a-Kind** tech stack. It is a declaration of war against technical debt, "spaghetti" infrastructure, and the massive "complexity tax" imposed by legacy systems.
+This document outlines the architectural, financial, and philosophical logic for a **Modern Company** using the O1-of-a-Kind strategy. It is a declaration of war against technical debt, "spaghetti" infrastructure, and the massive "complexity tax" imposed by legacy systems.
 
 ## 1. The Core Principle: Complexity is a Cost
 Most organizations solve problems by layering expensive, proprietary tools on top of fragile foundations. We do the opposite. We choose technologies that are **Declarative**, **Immutable**, and **Unified** to eliminate technical debt at the source. Our goal is **$O(1)$ Scaling**: whether you have 10 users or 10,000, the operational overhead must remain constant.
@@ -70,11 +70,11 @@ We reject the "licensing trap" of volume-based SIEMs in favor of an open-source,
 *   **Compliance Hardening:** Use automated Security Configuration Assessment (SCA) to continuously harden systems against CIS benchmarks and regulatory standards.
 
 ## 11. The Engineering Mandate: Stability over Maintenance
-This stack is a commitment to **Operational Integrity** and a respect for the most valuable resource: **Time.**
+This model is a commitment to **Operational Integrity** and a respect for the most valuable resource: **Time.**
 
 *   **Engineering vs. Babysitting:** My role is to provide stable, autonomous solutions that work at scale. I do not engineer "band-aids" for broken systems. Managing technical debt is an inefficient use of cognitive load.
 *   **The Cost of Manual Intervention:** If a system requires "babysitting" or chasing configuration drift, it is a failed architecture. We do not work within broken systems; we replace them.
 *   **The Efficiency of Engagement:** I value both my time and the time of those I work with too highly to waste it on unforced errors. We prioritize long-term stability and declarative logic over the high-maintenance "babysitting" of legacy debt.
 
 ---
-**The O1-of-a-Kind Stack is the only logical conclusion for an organization that values security, scale, and its own survival.**
+**The Modern Company is the only logical conclusion for an organization that values security, scale, and its own survival.**
