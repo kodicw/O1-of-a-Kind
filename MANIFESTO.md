@@ -69,7 +69,14 @@ We reject the "licensing trap" of volume-based SIEMs in favor of an open-source,
 *   **Active Defense:** Move from passive monitoring to active response by automating endpoint isolation and account disabling upon threat detection.
 *   **Compliance Hardening:** Use automated Security Configuration Assessment (SCA) to continuously harden systems against CIS benchmarks and regulatory standards.
 
-## 11. The Engineering Mandate: Stability over Maintenance
+## 11. Sovereign AI: vLLM & LiteLLM
+We reject the dependency on volatile cloud AI APIs in favor of high-performance, self-hosted intelligence.
+
+*   **Optimized Inference:** Using **vLLM** ensures that we maximize hardware performance through quantization and parallelization, delivering blazingly fast response times on our own terms.
+*   **Financial Control:** **LiteLLM** provides absolute visibility and enforcement of AI spend, preventing the budget overruns common with opaque cloud pricing.
+*   **Data Sovereignty:** By running AI locally, we ensure that sensitive company data never leaves our infrastructure, fulfilling our commitment to security-by-design.
+
+## 12. The Engineering Mandate: Stability over Maintenance
 This model is a commitment to **Operational Integrity** and a respect for the most valuable resource: **Time.**
 
 *   **Engineering vs. Babysitting:** My role is to provide stable, autonomous solutions that work at scale. I do not engineer "band-aids" for broken systems. Managing technical debt is an inefficient use of cognitive load.

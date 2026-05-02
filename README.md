@@ -20,6 +20,7 @@ Most organizations solve problems by layering expensive, proprietary tools on to
 *   **We choose Odoo, Grist, and Stirling PDF** because they replace fragmented "SaaS-tax" subscriptions with unified, open-core platforms.
 *   **We choose NetBox** because your network should be driven by an active "Engineering Truth," not a passive spreadsheet.
 *   **We choose VictoriaLogs and Wazuh** because observability and security should scale with compute, not with the predatory "volume-tax" of legacy SIEMs and log aggregators.
+*   **We choose vLLM and LiteLLM** because AI should be a high-performance, private, and cost-controlled asset, not a volatile cloud dependency.
 *   **We choose Nomad** because orchestration should be a lightweight utility, not a complex engineering sub-department.
 
 This isn't just a list of tools; it’s a strategy for **$O(1)$ Scaling**. Whether you have 10 users or 10,000, the operational overhead remains constant. 
@@ -40,6 +41,7 @@ This isn't just a list of tools; it’s a strategy for **$O(1)$ Scaling**. Wheth
 | 10 | [High-Performance Observability](./recommendations/10-observability.md) | O1 Observability |
 | 11 | [SONiC (Network OS)](./recommendations/11-sonic.md) | Open Networking |
 | 12 | [Wazuh (SIEM & XDR)](./recommendations/12-wazuh.md) | Unified Security |
+| 13 | [Sovereign AI Infrastructure](./recommendations/13-local-ai.md) | Local AI Sovereignty |
 
 ---
 *Follow the [Template](./recommendations/_template.md) to add new recommendations.*
