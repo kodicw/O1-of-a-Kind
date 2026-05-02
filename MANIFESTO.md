@@ -40,7 +40,15 @@ We replace fragmented "SaaS-tax" subscriptions with unified, open-core platforms
 *   **Relational Data (Grist):** A database disguised as a spreadsheet. It provides strict data integrity and Python logic, replacing the fragile `VLOOKUP` chains of Excel.
 *   **Document Sovereignty (Stirling PDF):** A military-grade, self-hosted alternative to Adobe. It follows the **90/10 Rule**: use Stirling for the 90% and reserve Adobe for the 10% of power users.
 
-## 7. The Engineering Mandate: Stability over Maintenance
+## 7. The Split Source of Truth: Business vs. Engineering
+To eliminate "babysitting," we separate the business lifecycle from the technical configuration.
+
+*   **Business Truth (Odoo):** Manages the financial lifecycle of an asset (procurement, custody, depreciation, and HR assignment). It answers: *Who has it and how much did it cost?*
+*   **Engineering Truth (NetBox Enterprise):** Manages the technical state of the network (IPAM, DCIM, and cabling). It acts as the **active engine** for event-driven automation. It answers: *Where does the cable go and what is its IP?*
+
+By separating these truths, we allow finance and engineering to move at their own speeds without one bottlenecking the other.
+
+## 8. The Engineering Mandate: Stability over Maintenance
 This stack is a commitment to **Operational Integrity** and a respect for the most valuable resource: **Time.**
 
 *   **Engineering vs. Babysitting:** My role is to provide stable, autonomous solutions that work at scale. I do not engineer "band-aids" for broken systems. Managing technical debt is an inefficient use of cognitive load.

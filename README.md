@@ -34,6 +34,7 @@ This isn't just a list of tools; it’s a strategy for **$O(1)$ Scaling**. Wheth
 | 06 | [Stirling PDF vs. Adobe](./recommendations/06-stirling-pdf.md) | Document Processing |
 | 07 | [NixOS](./recommendations/07-nixos.md) | Declarative OS |
 | 08 | [HashiCorp Nomad](./recommendations/08-nomad.md) | Workload Orchestration |
+| 09 | [NetBox Enterprise](./recommendations/09-netbox.md) | Network Source of Truth |
 
 ---
 *Follow the [Template](./recommendations/_template.md) to add new recommendations.*
