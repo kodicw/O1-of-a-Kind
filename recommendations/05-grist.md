@@ -20,7 +20,7 @@ Grist transforms raw data into productive layouts. You can build app-like dashbo
 Data privacy is built into Grist's open-source DNA. Unlike Airtable, which limits data exports to simple CSVs and prevents self-hosting, **Grist guarantees full data ownership**. You can self-host the platform on your own servers to comply with strict privacy policies, and export your entire database at any time as an SQLite file.
 
 ## 6. Drastically Lower Costs
-Grist delivers enterprise-grade database power at a fraction of the cost of its competitors. **Grist's Pro plan is just $8 per user/month**, making it significantly more cost-effective than Airtable's Team ($24) and Business ($54) plans. If you choose to self-host, Grist is completely free.
+Grist delivers enterprise-grade database power at a fraction of the cost of its competitors. It is significantly more cost-effective than proprietary platforms like Airtable. If you choose to self-host, Grist is completely free.
 
 ## Scale & Efficiency
 Grist is specifically designed for building internal tools or managing interconnected lists (like server IPs, hardware MAC addresses, or car audio fitments). It provides the strict data integrity of a database while keeping the drag-and-drop ease of a spreadsheet.

@@ -1,8 +1,8 @@
-# Recommendation 15: OpenWrt - Universal Network OS
+# Recommendation 14: OpenWrt - Universal Network OS
 
 A highly flexible, fully modular embedded Linux server that replaces restrictive OEM firmware for ultimate edge control.
 
-**TL;DR:** OpenWrt redefines the router from a static appliance into a transparent, enterprise-grade Linux server, eliminating vendor lock-in and bloated software while enabling advanced traffic management and VPN performance.
+**TL;DR:** OpenWrt redefines the router from a static appliance into a transparent, enterprise-grade Linux server with **$0 licensing fees**, eliminating vendor lock-in and bloated software while enabling advanced traffic management and VPN performance.
 
 ## 1. The Writable Overlay Filesystem
 Traditional firmware traps administrators in read-only environments. OpenWrt uses an advanced `overlayfs` architecture.

@@ -28,7 +28,7 @@ Out-of-the-box rule mapping and dashboards for global standards:
 ## Scale, Cost, & Efficiency
 *   **TCO Advantage:** $0 software license fee. Replaces unpredictable volume-based pricing with predictable options:
     *   **Self-Managed:** Leverage internal engineering to run for free.
-    *   **Wazuh Cloud (SaaS):** Fully vendor-managed, PCI DSS and SOC 2 certified. Predictable pricing starting at roughly **$571/month for up to 100 agents**.
+    *   **Wazuh Cloud (SaaS):** Fully vendor-managed, PCI DSS and SOC 2 certified. Offers predictable, flat-rate pricing based on agent count.
 *   **Performance:** Scalability testing proves Wazuh handles up to **500 Events Per Second (EPS)** with 95% of events processed in under 500 milliseconds.
 *   **Deployment Flexibility:** "All-in-one" for small shops or "Multi-node Cluster" for high availability in enterprises.
 

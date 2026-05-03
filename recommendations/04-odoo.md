@@ -15,7 +15,7 @@ Because Microsoft uses a fragmented "Hub and Spoke" model, transactions are not 
 
 ### Voice over IP (VoIP)
 *   **Odoo:** Features a native SIP client included in the license. When a customer calls, their complete history (orders, car fitment, support tickets) loads instantly.
-*   **Microsoft:** Requires third-party bolt-ons like Teams Phone System or RingCentral. These add roughly $48,000/year for 200 users and require custom development to achieve deep ERP screen-pops.
+*   **Microsoft:** Requires third-party bolt-ons like Teams Phone System or RingCentral. These add significant annual operational costs and require custom development to achieve deep ERP screen-pops.
 
 ### Point of Sale (POS)
 *   **Odoo:** Runs seamlessly as a PWA on ChromeOS, works offline, and writes directly to the core inventory/accounting database.
@@ -24,18 +24,6 @@ Because Microsoft uses a fragmented "Hub and Spoke" model, transactions are not 
 ### Inventory & Fitment
 *   **Odoo:** Includes native barcode support, multi-warehouse routing, and serial tracking across all nodes without additional licensing.
 *   **Microsoft:** Advanced inventory and manufacturing often require "Premium" tier upgrades or expensive Independent Software Vendor (ISV) add-ons.
-
-## Financial Proof (200-User Annual Projection)
-
-| Expense Category | Odoo Enterprise (Custom) | Microsoft D365 BC (Premium) |
-|------------------|--------------------------|-----------------------------|
-| Licensing        | ~$75,000/year            | ~$264,000/year              |
-| VoIP/Comm Module | Included                 | ~$48,000/year               |
-| API Connectors   | $0 (Native)              | ~$10,000/year               |
-| E-commerce       | Included                 | ~$5,000+                    |
-| **Total Annual Cost** | **~$75,000**        | **~$327,000+**              |
-
-*Note: Odoo licensing calculated at ~$31.10/user/month; Microsoft at ~$110/user/month.*
 
 ## Vertical Spotlight: Car Audio Manufacturing & Sales
 Odoo’s modular architecture is uniquely suited to unify the specific workflows of the automotive audio industry, from prototyping and manufacturing to inventory and field services.

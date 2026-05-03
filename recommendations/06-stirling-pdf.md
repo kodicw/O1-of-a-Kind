@@ -26,9 +26,9 @@ Stirling-PDF operates on an open-core model to support enterprise needs while re
 
 | Plan | Pricing | Target | Features |
 |------|---------|--------|----------|
-| **Community** | $0 | Individuals / Small Teams (<5) | All core PDF tools, Docker deployment. |
-| **Server** | $99/mo | Mid-sized Organizations | **Flat-rate for unlimited users**, OAuth2 SSO, external DB support. |
-| **Enterprise** | Per Seat | Large Enterprises | SAML2 SSO, priority support, advanced monitoring. |
+| **Community** | $0 | Individuals / Small Teams | All core PDF tools, Docker deployment. |
+| **Server** | Flat-rate | Mid-sized Organizations | **Unlimited users**, OAuth2 SSO, external DB support. |
+| **Enterprise** | Custom | Large Enterprises | SAML2 SSO, priority support, advanced monitoring. |
 
 ## The Reality Check
 With over 25 million downloads and deployment in 55,000+ companies, Stirling-PDF is the definitive tool for reducing "license tax." It provides military-grade security and automated processing pipelines that actually outperform proprietary alternatives in privacy and infrastructure control.

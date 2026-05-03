@@ -50,7 +50,7 @@ We replace fragmented "SaaS-tax" subscriptions with unified, open-core platforms
 ## 8. The Split Source of Truth: Business vs. Engineering
 To eliminate "babysitting," we separate the business lifecycle from the technical configuration.
 
-*   **Business Truth (Odoo):** Manages the financial lifecycle of an asset (procurement, custody, depreciation, and HR assignment). It answers: *Who has it and how much did it cost?*
+*   **Business Truth (Odoo):** Manages the financial lifecycle of an asset (procurement, custody, depreciation, and HR assignment). It answers: *Who has it and what is its current financial lifecycle state?*
 *   **Engineering Truth (NetBox Enterprise):** Manages the technical state of the network (IPAM, DCIM, and cabling). It acts as the **active engine** for event-driven automation. It answers: *Where does the cable go and what is its IP?*
 
 By separating these truths, we allow finance and engineering to move at their own speeds without one bottlenecking the other.
@@ -62,7 +62,8 @@ Observability is a core utility that must scale at constant complexity. Legacy s
 *   **Predictable Performance:** Our pipeline ensures data ingestion remains high-throughput and low-overhead, ensuring observability is an asset rather than a resource drain.
 
 ## 10. Unified Security: Wazuh
-We reject the volume-based licensing of legacy SIEMs as a "growth tax." Security must scale with infrastructure, not with the volume of telemetry.
+*   **Unified Security:** We reject the volume-based licensing of legacy SIEMs as a "growth tax." Security must scale with infrastructure, with **zero volume-based fees**.
+
 
 *   **Cost-Compute Alignment:** By utilizing open-source XDR, we align security costs with compute resources rather than data ingestion volume.
 *   **Active Defense:** We automate the transition from detection to response, using stateless scripts to isolate endpoints and revoke access in real-time.

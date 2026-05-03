@@ -26,7 +26,7 @@ Instead of buying a bloated stack of third-party tools to lock down inherent OS 
 
 ## Flawless Legacy App Integration (VDI and VAD)
 Adopting ChromeOS does not mean you have to abandon critical Windows applications. 
-*   **Virtual App Delivery (VAD):** Through Google partners like Cameyo, you can run the full desktop version of any legacy Windows or ERP application seamlessly inside the Chrome browser. This allows users to access legacy tools without needing a local Windows OS, reducing remote desktop costs by up to 85%.
+*   **Virtual App Delivery (VAD):** Through Google partners like Cameyo, you can run the full desktop version of any legacy Windows or ERP application seamlessly inside the Chrome browser. This allows users to access legacy tools without needing a local Windows OS, **reducing remote desktop costs by up to 85%**.
 *   **VDI Compatibility:** ChromeOS integrates seamlessly with Citrix and VMware for comprehensive virtual desktop infrastructure environments.
 
 ## Rapid Disaster Recovery
