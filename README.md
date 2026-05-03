@@ -47,7 +47,3 @@ This strategy ensures that whether the organization services 10 users or 10,000,
 
 ---
 *Follow the [Template](./recommendations/_template.md) to add new recommendations.*
-recommendations/13-local-ai.md) | Local AI Sovereignty |
-
----
-*Follow the [Template](./recommendations/_template.md) to add new recommendations.*
