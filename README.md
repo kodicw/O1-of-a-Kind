@@ -16,6 +16,7 @@ The **Modern Company** is defined by a single axiom: **Complexity is a Cost.**
 Conventional infrastructure relies on proprietary, mutable layers that accumulate technical debt. Our approach is deductive: we employ only **Declarative**, **Immutable**, and **Unified** systems to ensure operational overhead remains constant ($O(1)$) as the organization scales.
 
 *   **Stateless Foundations:** We deploy **ChromeOS, NixOS, and SONiC** to decouple hardware from software, physically eliminating configuration drift at the endpoint, OS, and network layers.
+*   **Edge Transparency:** We replace proprietary, locked-down router appliances with **OpenWrt**, a modular, transparent network OS.
 *   **Identity-Based Mesh:** We utilize **Tailscale and Nebula** to replace centralized bottlenecks with high-performance, peer-to-peer connectivity.
 *   **Data Sovereignty:** We employ **Odoo, Grist, and Stirling PDF** to consolidate fragmented SaaS subscriptions into unified, open-core platforms.
 *   **Active Source of Truth:** We mandate **NetBox** as the engine for engineering truth, ensuring the physical state is a derivative of its intended design.
@@ -42,8 +43,7 @@ This strategy ensures that whether the organization services 10 users or 10,000,
 | 11 | [SONiC (Network OS)](./recommendations/11-sonic.md) | Open Networking |
 | 12 | [Wazuh (SIEM & XDR)](./recommendations/12-wazuh.md) | Unified Security |
 | 13 | [Sovereign AI Infrastructure](./recommendations/13-local-ai.md) | Local AI Sovereignty |
-| 14 | [APOTHEOSIS](./recommendations/14-apotheosis.md) | Supply Chain Security |
-| 15 | [OpenWrt](./recommendations/15-openwrt.md) | Universal Network OS |
+| 14 | [OpenWrt](./recommendations/14-openwrt.md) | Universal Network OS |
 
 ---
 *Follow the [Template](./recommendations/_template.md) to add new recommendations.*
